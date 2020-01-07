@@ -218,7 +218,7 @@ write.csv(df_desc, "summary_statistics_by_year2008.csv")
 
 
 ###Correlation Matrix
-cor() is the base function. for a visually more appealing version, using lowerCor() from psych pachage is also possible.
+cor() is the base function. for a visually more appealing version, using lowerCor() from psych package is also possible.
 
 ```{r}
 df_corvar <- df[,c('eviction.rate','poverty.rate','median.household.income',
